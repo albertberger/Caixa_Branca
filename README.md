@@ -1,5 +1,7 @@
 # Documentação
 
+## Código documentado
+
 package login;
 
 import java.sql.Connection;
@@ -66,4 +68,4 @@ public class User {
 
         return result; // Retorna o resultado da busca do usuário
     }
-}
+} 
