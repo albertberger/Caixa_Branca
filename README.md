@@ -56,7 +56,6 @@ public class User {
             // Executa a consulta SQL
             Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(sql);
-
             // Se o usuário for encontrado, atualiza os resultados
             if (rs.next()) {
                 result = true;
@@ -68,4 +67,4 @@ public class User {
 
         return result; // Retorna o resultado da busca do usuário
     }
-} 
+}
